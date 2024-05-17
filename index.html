@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating a remote GitHub repo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Updating a remote GitHub repo</h1>
+        <div class="step">
+            <div class="step-number">1</div>
+            <h3>Create GitHub Repository</h3>
+            <p>To push an existing project to GitHub, you must first create a GitHub repository. To do this, simply click the green “Create repository” button in GitHub’s online console and provide a repository name.</p>
+            <p>For example, we name repository cool-project here.</p>
+            <img src="images/image1.png" alt="Creating a GitHub repository">
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <h3>Copy Command Line Code</h3>
+            <p>If you’ve already committed the code on your local device, you can just copy the command line code from highlighted code-snipped and run in the command line.</p>
+            <p>Or, Obtain the repo’s GitHub URL from quick setup box. Copy this value for use in a future step.</p>
+            <img src="images/image3.png" alt="Command line code for GitHub">
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <h3>Initialize Git in Existing Project</h3>
+            <p>If the existing project (in your device) does not already use Git, issue a <code>git init</code> command in the root folder. After the repository is initialized, add all of the project files to the Git index and perform a commit:</p>
+            <pre><code>git add .<br>git commit -m "Add existing project files prior to the push to GitHub."</code></pre>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <h3>Add Remote Reference for GitHub</h3>
+            <p>To let your existing project synchronize with GitHub, issue a <code>git remote add</code> command to configure a reference from you local Git installation to the repository on GitHub. Note that the last segment of the <code>git remote add</code> command is your project’s GitHub URL:</p>
+            <pre><code>git remote add origin https://github.com/rishicares/cool-project.git</code></pre>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <h3>Push First Commit to GitHub</h3>
+            <p>Once you’ve added the remote reference, you are ready to push your existing project to GitHub. Simply issue a <code>git push</code> command with the name of the current branch along with the <code>-u</code> and <code>-f</code> switches.</p>
+            <p>Note that older Git repositories create a <code>master</code> branch by default, while newer ones use <code>main</code>. Amend the <code>git push</code> command accordingly:</p>
+            <pre><code>git push -u -f origin master</code></pre>
+            <p>The <code>-u</code> switch makes the remote GitHub repo the default for your existing project. The <code>-f</code> switch forces Git to overwrite any files that already exist on GitHub with your existing project’s files.</p>
+        </div>
+        <div class="step">
+            <div class="step-number">6</div>
+            <h3>Verify the GitHub Push</h3>
+            <p>To verify that the existing project was pushed to GitHub successfully, log into the GitHub website and browse the repository. All of the files from your existing project should be visible on GitHub.</p>
+        </div>
+        <p>You can find this file as HTML in the Electronics Club repository. Feel free to fork it and make improvements. </p>
+        <p>Try to fork others’ repos, clone this repo to your device, make changes, and explore more!</p>
+        <br>
+        <hr>
+        <p>If you encounter any issues, feel free to ask me via LinkedIn - <a href="https://linkedin.com/in/rishikeshgautam" class="linkedin">linkedin.com/in/rishikeshgautam</a></p>
+        If you'd like to connect, here are my profiles: <a href="https://linkedin.com/in/rishikeshgautam" class="linkedin">LinkedIn</a>, <a href="https://github.com/rishicares" class="github">GitHub</a></p>
+    </div>
+</body>
+</html>

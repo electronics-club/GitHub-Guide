@@ -10,7 +10,8 @@ Welcome to the GitHub Guide repository! This repository serves as a comprehensiv
 
 1. **Clone the Repository:** Start by cloning this repository to your local machine. Use the following command in your terminal or Git Bash:
 
-```git clone https://github.com/electronics-club/GitHub-Guide.git
+```bash
+git clone https://github.com/electronics-club/GitHub-Guide.git
 ```
 
 2. **Open the HTML File:** Once cloned, navigate to the repository directory and open the `index.html` file in your preferred web browser.

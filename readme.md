@@ -5,6 +5,7 @@ Welcome to the GitHub Guide repository! This repository serves as a comprehensiv
 ## Contents
 
 - **HTML File:** The `index.html` file contains HTML content designed for practicing Git commands and exploring GitHub features.
+- **CSS File:** The `styles.css` file contains CSS content to style the HTML file.
 
 ## How to Use
 

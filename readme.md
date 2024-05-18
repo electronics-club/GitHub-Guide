@@ -1,11 +1,16 @@
 # GitHub Guide
 
-Welcome to the GitHub Guide repository! This repository serves as a comprehensive guide for beginners to learn Git and GitHub.
+Welcome to the GitHub Guide repository! This repository serves as a guide to push local code to GitHub.
+
+## Live Demo
+
+You can access the live demo of this guide by visiting the following link: [GitHub Guide](https://electronics-club.github.io/GitHub-Guide/)
 
 ## Contents
 
 - **HTML File:** The `index.html` file contains HTML content designed for practicing Git commands and exploring GitHub features.
 - **CSS File:** The `styles.css` file contains CSS content to style the HTML file.
+- **Images Folder** The `images` folder contains the images used in this guide.
 
 ## How to Use
 

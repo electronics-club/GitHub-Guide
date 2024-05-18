@@ -4,7 +4,7 @@ Welcome to the GitHub Guide repository! This repository serves as a guide to pus
 
 ## Live Demo
 
-You can access the live demo of this guide by visiting the following link: [GitHub Guide](https://electronics-club.github.io/GitHub-Guide/)
+You can access the live demo of this guide by visiting the following link: [https://electronics-club.github.io/GitHub-Guide](https://electronics-club.github.io/GitHub-Guide/)
 
 ## Contents
 
